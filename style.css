@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* for main contianer of the web page */
+.main_container{
+height: 100%;
+width: 100%;
+background-color: #caffff;
+}
+
+
+/* navigation bar */
+nav{
+  margin-bottom: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    place-items:center;
+    background-color: rgb(118, 88, 90);
+
+} 
+.navbar ul{
+    display: flex;
+    place-items: center;
+   
+    
+}
+.navbar ul li{
+list-style: none;
+font-size: 22px;
+padding: 10px;
+
+}
+.navbar ul li a{
+    display: block;
+    padding: 3px 22px    ;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+
+}
+.navbar ul li a:hover{
+     background-color: rgb(157, 150, 150);
+     color: rgb(12, 10, 10);
+}
+/* mainlogo */
+.web_logo img{
+    margin-left: 30px;
+    height: 65px;
+    width: 65px;
+} 
+/* end of navigation bar */
+
+
+
+
+/* for image slider */
+.swiper .mySwiper{
+    height: 100%;
+    width: 800px;
+}
+.swiper h1{
+  width: 500px;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+/* swiper's  css code */
+
+.swiper {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+/* end of image slider */
+
+
